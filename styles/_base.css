@@ -9,10 +9,45 @@ body {
   margin: 0;
 }
 
+.main-grid {
+  display: grid;
+  grid-template-rows: [header]1fr [content]auto [footer]1fr;
+  grid-template-columns: 375px;
+  margin: 0 auto;
+  width: 375px;
+}
+
+.header {
+  grid-row: header;
+  background-color: var(--background-color-header);
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+.content-grid {
+  display: flex;
+  flex-direction: column;
+  grid-row: content;
+  background-color: var(--background-color-content);
+}
+
+.footer {
+  display: flex;
+  grid-row: footer;
+  position: sticky;
+  bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--background-color-footer);
+  font-size: 40px;
+}
+
 h1,
 h2,
 h3 {
   line-height: 1.3;
+  text-align: center;
 }
 
 input,
