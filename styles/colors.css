@@ -1,5 +1,6 @@
 :root {
-  --background-color-header: rgb(184, 207, 250);
-  --background-color-content: rgb(212, 233, 245);
-  --background-color-footer: rgb(184, 207, 250);
+  --background-color-header: #dcccff;
+  --background-color-content: #f3effc;
+  --background-color-footer: #dcccff;
+  --font-color: #330499;
 }
