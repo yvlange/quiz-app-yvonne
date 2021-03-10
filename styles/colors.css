@@ -1,6 +1,7 @@
 :root {
   --background-color-header: #dcccff;
-  --background-color-content: #f3effc;
+  --background-color-content: #f5f4f8;
   --background-color-footer: #dcccff;
   --font-color: #330499;
+  --background-color-questionbox: #f3effc;
 }
