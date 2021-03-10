@@ -62,6 +62,7 @@ body {
   right: 5px;
   top: -5px;
   cursor: pointer;
+  fill: transparent;
 }
 
 h2,
