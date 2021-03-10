@@ -48,6 +48,7 @@ body {
   display: flex;
   position: relative;
   flex-direction: column;
+
   height: auto;
   background-color: var(--background-color-questionbox);
   border: solid 1px #b8abd4;
