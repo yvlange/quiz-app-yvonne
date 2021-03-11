@@ -1,0 +1,24 @@
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+form {
+  margin: 20px;
+  align-self: center;
+}
+
+.tags {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.submit {
+  font-family: 'Open Sans Condensed', sans-serif;
+  border-radius: 5px;
+  margin: 50px;
+}
+
+.submit:hover {
+  background-color: grey;
+}
