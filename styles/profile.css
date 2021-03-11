@@ -38,7 +38,6 @@ body {
   display: flex;
   grid-row: content;
   flex-direction: column;
-  flex-wrap: wrap;
   background-color: #f5f4f8;
   overflow-y: scroll;
   overflow-wrap: break-word;

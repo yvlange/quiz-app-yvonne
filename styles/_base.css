@@ -46,8 +46,8 @@ body {
 /* contains question box and bookmark */
 .question-box {
   display: flex;
-  position: relative;
   flex-direction: column;
+  position: relative;
   height: auto;
   background-color: var(--background-color-questionbox);
   border: solid 1px #b8abd4;
@@ -62,7 +62,6 @@ body {
   right: 5px;
   top: -5px;
   cursor: pointer;
-  fill: transparent;
 }
 
 h2,
