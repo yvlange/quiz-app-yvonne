@@ -26,7 +26,7 @@ body {
   text-align: center;
 }
 
-.header-title-container {
+.header-title {
   display: flex;
   justify-content: center;
   height: 100%;
@@ -57,23 +57,27 @@ body {
   font-size: 1em;
 }
 
-.bookmark {
+.question-box__bookmark {
   position: absolute;
   right: 5px;
   top: -5px;
   cursor: pointer;
 }
 
-h2,
+.question-box__bookmark--filled {
+  fill: var(--font-color);
+}
+
+.question-box__title,
 h6 {
   margin: 0;
 }
 
-.question {
+.question-box__text {
   margin: 0;
 }
 
-.button {
+.question-box__button {
   cursor: pointer;
   margin: 0 auto;
   font-size: smaller;
@@ -85,13 +89,13 @@ h6 {
   background-color: grey;
 }
 
-.answer {
+.question-box__answer {
   text-align: center;
   margin: 0;
   display: none;
 }
 
-.tags {
+.question-box__tag {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -99,7 +103,7 @@ h6 {
   list-style: none;
 }
 
-.tags > li {
+.question-box__tag > .question-box__tag-text {
   border: solid 1px #dcccff;
   border-radius: 5px;
   color: #a195b9;

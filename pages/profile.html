@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quiz App</title>
-    <link rel="stylesheet" href="/styles/profile.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -20,21 +20,21 @@
   <body>
     <div class="main-grid">
       <header class="header">
-        <div class="header-title-container">
+        <div class="header-title">
           <h1>Profile</h1>
         </div>
       </header>
-      <main class="content-grid">
-        <div class="question-box">
+      <main class="profile-grid">
+        <div class="profile-box">
           <img
-            class="picture"
+            class="profile-box__picture"
             src="/images/10749035456_IMG_0286_Original.jpg"
             alt="Profile Picture"
           />
-          <h2 class="profile-name">Yvonne Lange</h2>
+          <h2 class="profile-box__name">Yvonne Lange</h2>
         </div>
-        <div class="about-me">
-          <h2 class="about-me-title">About me:</h2>
+        <div class="about-me-box">
+          <h2 class="about-me-box__title">About me:</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil autem
             minima, ipsa, magnam porro quibusdam placeat quo aliquam sint sunt
@@ -42,17 +42,17 @@
           </p>
         </div>
         <div class="tags-box">
-          <h2 class="tags-box-title">Tags:</h2>
+          <h2 class="tags-box__title">Tags:</h2>
           <p>
-            <ul class="tags">
-                <li class="content-tags">#CSS</li>
-                <li class="content-tags">#HTML5</li>
-                <li class="content-tags">#fun</li>
-                <li class="content-tags">#lorem</li>
+            <ul class="tags-box__tags">
+                <li class="tags-box__text">#CSS</li>
+                <li class="tags-box__text">#HTML5</li>
+                <li class="tags-box__text">#fun</li>
+                <li class="tags-box__text">#lorem</li>
             </ul>
           </p>
         </div>
-        <button type="button" class="button">LOGOUT</button>
+        <button type="button" class="profile-grid__button">LOGOUT</button>
       </main>
       <footer class="footer">
         <a href="/index.html"><i class="fas fa-home"></i> </a>
