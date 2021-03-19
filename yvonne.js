@@ -30,5 +30,8 @@ if(bookmark[i].classList.contains("far")) {
    });
 }
 
+function myFunction() {
+    let element = document.querySelector("body");
+    element.classList.toggle("dark-mode");}
 
 
