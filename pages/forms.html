@@ -25,15 +25,18 @@
         </div>
       </header>
       <main class="content-grid">
-        <form>
+        <form class="super-form">
           <label for="question">Add a question:</label>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-        </form>
-        <form>
+          <textarea
+            name="question"
+            id="question"
+            cols="30"
+            rows="10"
+          ></textarea>
+
           <label for="answer">Add an answer:</label>
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-        </form>
-        <form>
+          <textarea name="answer" id="answer" cols="30" rows="10"></textarea>
+
           <label for="tags">Tags:</label>
           <select class="tags" name="tags" id="tags1">
             <option value="#lorem">#lorem</option>
@@ -62,8 +65,8 @@
             <option value="#music">#music</option>
             <option value="#general">#general</option>
           </select>
+          <button class="submit" type="submit">Submit</button>
         </form>
-        <button class="submit" type="submit">Submit</button>
       </main>
       <footer class="footer">
         <a href="/index.html"><i class="fas fa-home"></i> </a>
@@ -72,5 +75,6 @@
         <a href="profile.html"><i class="fas fa-user"></i></a>
       </footer>
     </div>
+    <script src="../form.js"></script>
   </body>
 </html>
