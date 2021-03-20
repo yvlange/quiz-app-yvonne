@@ -13,11 +13,16 @@ form {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.textarea {
+  border-radius: 5px;
+}
+
 .submit {
   font-family: 'Open Sans Condensed', sans-serif;
   border-radius: 5px;
   margin: 0 auto;
   display: block;
+  margin-top: 5px;
 }
 
 .submit:hover {
