@@ -1,37 +1,14 @@
-const button = document.querySelectorAll('button');
-const answer = document.querySelectorAll('.question-box__answer');
+import { data } from "./lib/db.js";
+import { createCard } from "./lib/card.js";
 
-for (let i = 0; i < button.length; i++){
-button[i].addEventListener("click", () => {
- const shown = answer[i].classList.toggle("question-box__answer");
-if (shown) {
+const content = document.querySelector(".content-grid");
 
-    answer[i].style.display = "none";
-} else {
-    answer[i].style.display = "block";
-}
-});
-}
-
-const bookmark = document.querySelectorAll(".question-box__bookmark");
-
-for (let i = 0; i < bookmark.length; i++) {
-   bookmark[i].addEventListener("click", () => {
-       
-if(bookmark[i].classList.contains("far")) {
-    bookmark[i].classList.remove("far", "fa-bookmark");
-       bookmark[i].classList.add("fas", "fa-bookmark"); 
-
-} else  {
-    bookmark[i].classList.remove("fas", "fa-bookmark");
-    bookmark[i].classList.add("far", "fa-bookmark"); 
-   
-}
-   });
+for (let i = 0; i < data.length; i++) {
+  const cardSection = createCard(data[i]);
+  content.append(cardSection);
 }
 
 function myFunction() {
     let element = document.querySelector("body");
     element.classList.toggle("dark-mode");}
-
 
