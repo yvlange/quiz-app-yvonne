@@ -1,6 +1,6 @@
-// import { data } from "./lib/db.js";
+
 import { createCard } from "./lib/card.js";
-import { getSections } from "./lib/forms.js";
+import { getSections } from "./lib/db.js";
 
 const content = document.querySelector(".content-grid");
 
